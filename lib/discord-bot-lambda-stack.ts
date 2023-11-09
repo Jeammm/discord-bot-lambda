@@ -13,9 +13,9 @@ export class DiscordBotLambdaStack extends cdk.Stack {
         code: lambda.DockerImageCode.fromImageAsset("./src"),
         memorySize: 1024,
         timeout: cdk.Duration.seconds(10),
-        architecture: lambda.Architecture.ARM_64,
+        architecture: lambda.Architecture.X86_64,
         environment: {
-          DISCORD_PUBLIC_KEY: "INSERT_YOUR_DISCORD_PUBLIC_KEY_HERE",
+          DISCORD_PUBLIC_KEY: "4b779157d456669a31e2ba13fd4dd5c431d04f4447c2b8d25e17cb5db6b96396",
         },
       }
     );

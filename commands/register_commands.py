@@ -2,8 +2,8 @@ import requests
 import yaml
 
 
-TOKEN = "INSERT_DISCORD_TOKEN_HERE"
-APPLICATION_ID = "INSERT_APPLICATION_ID_HERE"
+TOKEN = "MTE3MTcxNjgyNzQ1MDE4MzcwMA.G1be0F.NYgbAFji8dqCTPwYu1T7IH5b0Y1rf_ahJ4kQQ4"
+APPLICATION_ID = "1171716827450183700"
 URL = f"https://discord.com/api/v9/applications/{APPLICATION_ID}/commands"
 
 
